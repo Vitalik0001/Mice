@@ -60,7 +60,6 @@ html, body {
 body {
     line-height: 1;
     font-family: Roboto, sans-serif;
-    color: black;
     font-weight: 400;
 }
 
@@ -76,7 +75,58 @@ body {
 }
 
 [class*="__container"] {
-    min-width: 1320px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 0px 15px;
 }
+
+/* Header */
+.header {
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+        max-width: 1440px;
+    }
+
+    &__logo {
+        display: flex;
+        align-self: center;
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+    }
+}
+.menu {
+
+    &__list {
+        display: flex;
+        gap: 42px;
+    }
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    font-size: 14px;
+    &__first {
+        padding: 15px 34px;
+        background-color: #6F2CFF;
+        border-radius: 30px;
+        font-weight: 300;
+    }
+
+    &__second {
+        padding: 15px 0;
+    }
+
+    #button__first {
+        color: white;
+    }
+}
+
+/* Main content */

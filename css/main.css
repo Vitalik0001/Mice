@@ -139,7 +139,7 @@ body {
 
 /* Main content */
 .main__first-part {
-  background-image: url(/img/first-part/background.jpg);
+  background-image: url(img/first-part/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 200px;
@@ -170,7 +170,7 @@ body {
 }
 @media (max-width: 752px) {
   .main__first-part {
-    background: url(/img/first-part/background.jpg);
+    background: url(img/first-part/background.jpg);
     background-position: center;
     padding-bottom: 0;
   }
